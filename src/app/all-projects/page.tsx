@@ -220,10 +220,10 @@ const items = [
   //   link: "https://akshatj15.github.io/Calculator/",
   // },
   {
-    title: "Chair-Luxe",
+    title: "Advanced_chair",
     description: "HTML , CSS",
     header: <Skeleton image={chairImg} icon={MessageCircle} />,
     icon: <RockingChair className="h-4 w-4 text-neutral-500" />,
-    link: "https://github.com/vivek180905/ChairLuxe",
+    link: "https://github.com/vivek180905/advanced_chair",
   },
 ];
