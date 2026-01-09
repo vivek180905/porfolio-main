@@ -7,9 +7,11 @@ import {
   MessageCircle,
   Blocks,
   Grid3x3,
+  Key,
   Zap,
   Earth,
   Code,
+  FileText,
   Car,
   CloudSun,
   BotMessageSquare,
@@ -17,6 +19,11 @@ import {
   SquareKanban,
   CodeXml,
   Backpack,
+  Briefcase,
+  Images,
+  Layers,
+  CupSoda,
+  Wallet,
 } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import codeCraftImg from "../../assets/project-images/codecraft.png";
@@ -35,9 +42,18 @@ import travelImg from "../../assets/project-images/travel.png";
 import tictactoeImg from "../../assets/project-images/tictactoe.png";
 import weatherImg from "../../assets/project-images/weather2.png";
 import chairImg from "../../assets/project-images/chair.png"
-import brainwaveImg from "../../assets/project-images/brainwave.png";
+import randompasw from "../../assets/project-images/randompasw.png";
 import calculatorImg from "../../assets/project-images/calculator.png";
+import portfol from "../../assets/project-images/portfol.png";
+import gallery from "../../assets/project-images/gallery.png";
+import parallax from "../../assets/project-images/parallax.png";
+import coffee from "../../assets/project-images/coffee.png";
+import razor from "../../assets/project-images/razor.png";
+import blogImg from "../../assets/project-images/blogImg.png";
+
 import {Footer} from "../../sections/Footer";
+
+
 
 export default function Page() {
   return (
@@ -200,7 +216,7 @@ const items = [
   // },
   {
     title: "Weather_Website",
-    description: "HTML , CSS , JavaScript",
+    description: "HTML , CSS , JavaScript , API",
     header: <Skeleton image={weatherImg} icon={MessageCircle} />,
     icon: <CloudSun className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/weather_website",
@@ -208,8 +224,8 @@ const items = [
    {
     title: "Random_Password_Generator",
     description: "HTML , CSS , JavaScript",
-    header: <Skeleton image={weatherImg} icon={MessageCircle} />,
-    icon: <CloudSun className="h-4 w-4 text-neutral-500" />,
+    header: <Skeleton image={randompasw} icon={MessageCircle} />,
+    icon: <Key className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/random_password_generator",
   },
   // {
@@ -225,5 +241,52 @@ const items = [
     header: <Skeleton image={chairImg} icon={MessageCircle} />,
     icon: <RockingChair className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/advanced_chair",
+  }, 
+   {
+    title: "Simple_Blog_Website",
+    description: "HTML , CSS",
+    header: <Skeleton image={blogImg} icon={MessageCircle} />,
+    icon: <FileText className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/blow-web-demo",
   },
+ {
+    title: "Personal_Portfolio_Website_Old",
+    description: "Portfolio built using HTML, CSS, and JavaScript",
+    header: <Skeleton image={portfol} icon={MessageCircle} />,
+    icon: <Briefcase className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/old-portfolio",
+  },
+
+  {
+    title: "My_Gallery",
+    description: "HTML, CSS ",
+    header: <Skeleton image={gallery} icon={MessageCircle} />,
+    icon: <Images className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/my-gallery",
+  },
+
+  {
+    title: "Parallax_Travel_Website",
+    description: "HTML, CSS ",
+    header: <Skeleton image={parallax} icon={MessageCircle} />,
+    icon: <Layers className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/parallax_web",
+  },
+  
+  {
+    title: "Coffee_Mug_UI",
+    description: "HTML, CSS ",
+    header: <Skeleton image={coffee} icon={MessageCircle} />,
+    icon: <CupSoda className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/COFFEE-MUG",
+  },
+
+   {
+    title: "Coffee_Mug_UI",
+    description: "HTML, CSS ",
+    header: <Skeleton image={razor} icon={MessageCircle} />,
+    icon: <Wallet  className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/COFFEE-MUG",
+  },
+
 ];
