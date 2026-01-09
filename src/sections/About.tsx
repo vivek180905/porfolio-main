@@ -125,7 +125,7 @@ const hobbies = [
     title: "Volleyball",
     emoji: "🏐",
     left: "23%",
-    top: "45%",
+    top: "5%",
   },
   {
     title: "Cycling",

@@ -9,6 +9,7 @@ import SparkleIcon from "../assets/icons/sparkle.svg";
 import { motion, MotionConfig } from "framer-motion";
 import SectionHeader from "@/components/SectionHeader/SectionHeader";
 
+
 export const HeroSection = () => {
   return (
     <div className="pt-32 pb-14 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
@@ -166,6 +167,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
+            
             <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </motion.div>

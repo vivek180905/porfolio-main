@@ -13,16 +13,20 @@ export const Footer = () => {
           <div className="text-white/40">Vivek Raj</div>
 
           <nav className="flex flex-col md:flex-row items-center gap-8 z-50">
-            <a href="https://github.com/akshatJ15" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
+            <a href="https://github.com/vivek180905" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
               <span className="font-semibold">Github</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
-            <a href="https://www.instagram.com/aakshat.jindal_15/" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
+            <a href="https://www.instagram.com/vivek__1809/" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
               <span className="font-semibold">Instagram</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
-            <a href="https://leetcode.com/u/BugSlayer69/" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
+            <a href="https://leetcode.com/u/viv18/" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
               <span className="font-semibold">Leetcode</span>
+              <ArrowUpRightIcon className="size-4" />
+            </a>
+            <a href="https://www.linkedin.com/in/vivek-raj-258b79288/" className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank">
+              <span className="font-semibold">LinkedIn</span>
               <ArrowUpRightIcon className="size-4" />
             </a>
           </nav>

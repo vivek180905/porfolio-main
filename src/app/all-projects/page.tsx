@@ -89,6 +89,10 @@ export default function Page() {
           >
             A collection of tools and sites I&apos;ve created, designed to be
             helpful, fun, & sometimes just a little bit weird.
+            <br />
+            <br />
+            
+             <span className="text-red-400">Click on any project to explore!</span>
           </motion.p>
         </section>
 
@@ -139,7 +143,7 @@ const items = [
   // },
   {
     title: "Code-catalyst",
-    description: "Next.js , TailwindCSS , Convex , TypeScript",
+    description: "Next.js , TailwindCSS , Convex , TypeScript , API ",
     header: <Skeleton image={codeCraftImg} icon={MessageCircle} />,
     icon: <Blocks className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/code-catalyst",
@@ -153,7 +157,7 @@ const items = [
   // },
   {
     title: "Web Generator",
-    description: "Next.js , TailwindCSS , Convex , TypeScript",
+    description: "Next.js , TailwindCSS , Convex , TypeScript , Shadcn/ui , Gemini AI",
     header: <Skeleton image={zephyrImg} icon={MessageCircle} />,
     icon: <Zap className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/web_generator",
@@ -264,6 +268,13 @@ const items = [
     icon: <Images className="h-4 w-4 text-neutral-500" />,
     link: "https://github.com/vivek180905/my-gallery",
   },
+  {
+    title: "Razorpay_UI",
+    description: "HTML, CSS , Tailwind CSS",
+    header: <Skeleton image={razor} icon={MessageCircle} />,
+    icon: <Wallet  className="h-4 w-4 text-neutral-500" />,
+    link: "https://github.com/vivek180905/razorpay_UI",
+  },
 
   {
     title: "Parallax_Travel_Website",
@@ -281,12 +292,6 @@ const items = [
     link: "https://github.com/vivek180905/COFFEE-MUG",
   },
 
-   {
-    title: "Coffee_Mug_UI",
-    description: "HTML, CSS ",
-    header: <Skeleton image={razor} icon={MessageCircle} />,
-    icon: <Wallet  className="h-4 w-4 text-neutral-500" />,
-    link: "https://github.com/vivek180905/COFFEE-MUG",
-  },
+   
 
 ];

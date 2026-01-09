@@ -1,11 +1,12 @@
 "use client";
 import ArrowUpRightIcon from "../assets/icons/arrow-up-right.svg";
+import ArrowDown from "../assets/icons/arrow-down.svg";
 import grainImage from "../assets/images/grain.jpg";
 import { motion } from "framer-motion";
 
 export const ContactSection = () => {
   const handleClick = () => {
-    const recipient = "jindalakshat2002@gmail.com";
+    const recipient = "singhvivekraj9999@gmail.com";
     const subject = "Enter the Subject Here";
     const body = "Enter the Body Here";
     const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(
@@ -53,11 +54,11 @@ export const ContactSection = () => {
                   className="font-semibold"
                   initial={{ y: -30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.3, ease: "easeIn" }}
+                  transition={{ duration: 0.5, ease: "easeIn" }}
                 >
                   Contact Me
                 </motion.span>
-                <ArrowUpRightIcon className="size-4" />
+                <ArrowDown className="size-4" />
               </button>
             </div>
           </div>
