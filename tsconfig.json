@@ -34,7 +34,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/HeroOrbit",
-    "src/components/TechIcon"
+    "src/components/TechIcon",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
