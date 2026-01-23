@@ -140,6 +140,7 @@ const items = [
   //   header: <Skeleton image={chattyImg} icon={MessageCircle} />,
   //   icon: <MessageCircle className="h-4 w-4 text-neutral-500" />,
   //   link: "https://chatty-7foh.onrender.com/",
+  // to be done
   // },
   {
     title: "Code-catalyst",
