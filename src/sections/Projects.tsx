@@ -22,7 +22,7 @@ const portfolioProjects = [
   //     { title: "Socket-io Usage" },
   //     { title: "Deployed on Render" },
   //   ],
-  // 
+  //  new git link to be added
   //   link: "https://chatty-7foh.onrender.com/",
   //   git: "https://github.com/akshatJ15/Chatty",
   //   image: chatty,
