@@ -14,13 +14,15 @@ import { motion, MotionConfig } from "framer-motion";
 
 const portfolioProjects = [
   // {
+  // to add new project here
   //   company: "React-js , Express-js , MongoDB",
-  //   title: "Chatty",
+  //   title: "CampusXchange",
   //   results: [
   //     { title: "Real-time messaging feature" },
   //     { title: "Socket-io Usage" },
   //     { title: "Deployed on Render" },
   //   ],
+  // 
   //   link: "https://chatty-7foh.onrender.com/",
   //   git: "https://github.com/akshatJ15/Chatty",
   //   image: chatty,
